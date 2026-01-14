@@ -1,16 +1,12 @@
 import { Shield, MessageCircle, Lock, Zap } from "lucide-react";
-
 export const EmptyState = () => {
-  return (
-    <div className="flex-1 flex items-center justify-center bg-background p-8">
+  return <div className="flex-1 flex items-center justify-center bg-background p-8">
       <div className="text-center max-w-md animate-fade-in">
         <div className="inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-primary/10 border border-primary/20 mb-6">
           <Shield className="w-10 h-10 text-primary" />
         </div>
         
-        <h2 className="text-2xl font-bold text-foreground mb-3">
-          Chào mừng đến SecureChat
-        </h2>
+        <h2 className="text-2xl font-bold text-foreground mb-3">Chào mừng đến AnndChat</h2>
         <p className="text-muted-foreground mb-8">
           Chọn một cuộc trò chuyện hoặc bắt đầu cuộc trò chuyện mới để nhắn tin
         </p>
@@ -53,6 +49,5 @@ export const EmptyState = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
